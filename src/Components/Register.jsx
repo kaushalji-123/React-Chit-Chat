@@ -13,6 +13,7 @@ const Register = () => {
           <input type="file" 
           aria-label='' placeholder='Add Your Avatar'/>
           <button>Sign Up </button>
+          <button>logout here</button>
           <p>You Do Have an Account ? login here dnjfjdb </p>
         </form>
       </div>
