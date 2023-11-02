@@ -15,6 +15,7 @@ const Register = () => {
           <button>Sign Up </button>
           <button>logout here</button>
           <p>You Do Have an Account ? login here dnjfjdb </p>
+          <p> now the default  branch is mini-chat</p>
         </form>
       </div>
     </div>
