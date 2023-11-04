@@ -1,21 +1,23 @@
 import React from 'react'
-const Register = () => {
+import Add from "../img/penguin 1.png"
+const Login = () => {
   return (
     <>
     <div className="formContainer">
       <div className="formWrapper">
         <span className='logo'>Papen Chat</span>
-        <span className='title'>Register</span>
+        <span className='title'>Login</span>
         <form>
           <input type="text" placeholder='UserName'/>
           <input type="text" placeholder='Email' />
           <input type="text" placeholder='Password'/>
-          <input type="file" 
-          aria-label='' placeholder='Add Your Avatar'/>
+          <input style={{display:"none"}} type="file" id="file"/> 
+          <label htmlFor="file">
+            <img src={Add} alt="" />
+            <span>Add an Avatar</span>
+          </label>
           <button>Sign Up </button>
-          <button>logout here</button>
-          <p>You Do Have an Account ? login here dnjfjdb </p>
-          <p> now the default  branch is mini-chat</p>
+          <p>You do Have an Account ? Register here </p>
         </form>
       </div>
     </div>
@@ -23,4 +25,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Login;
